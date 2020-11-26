@@ -1,0 +1,102 @@
+ .hero-sections {
+     position: relative;
+ }
+ 
+ .hero-sections img {
+     /* object-fit: cover; */
+     width: 1536px;
+     height: 700px;
+     z-index: -1;
+     top: -40px;
+     position: relative;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .hero-container {
+     width: 100%;
+     padding: 0 5%;
+     position: absolute;
+     top: 90px;
+     display: grid;
+     grid-template-columns: 60% 30%;
+     grid-gap: 10px;
+ }
+ 
+ .header {
+     width: 100%;
+     height: 600px;
+     position: relative;
+ }
+ 
+ .header h1 {
+     text-align: left;
+     position: absolute;
+     top: 75px;
+     font-size: 2.6rem;
+     text-transform: uppercase;
+     color: #ffffff;
+     text-shadow: 0 0 1px #000000;
+ }
+ 
+ .header p {
+     text-align: left;
+     position: absolute;
+     top: 175px;
+     font-size: 1.6rem;
+     /* text-transform: capitalize; */
+     color: #ffffff;
+     text-shadow: 0 0 1px #000000;
+ }
+ 
+ .btn {
+     position: absolute;
+     top: 375px;
+ }
+ 
+ @media screen and (max-width:960px) {
+     .hero-sections img {
+         width: auto;
+         height: 120%;
+         position: relative;
+         background-position: center;
+         background-size: cover;
+     }
+     .header h1 {
+         text-align: left;
+         position: absolute;
+         top: 60px;
+         font-size: 2rem;
+         text-transform: uppercase;
+         color: #ffffff;
+         text-shadow: 0 0 1px #000000;
+     }
+     .header p {
+         text-align: left;
+         position: absolute;
+         top: 160px;
+         font-size: 1rem;
+         /* text-transform: capitalize; */
+         color: #ffffff;
+         text-shadow: 0 0 1px #000000;
+     }
+     .btn {
+         position: absolute;
+         top: 280px;
+     }
+     .hero-container {
+         width: 100%;
+         padding: 0 5%;
+         position: absolute;
+         top: 90px;
+         grid-gap: 10px;
+     }
+     .hero-container {
+         width: 100%;
+         padding: 0 5%;
+         position: absolute;
+         top: 90px;
+         display: grid;
+         grid-template-columns: 70% 20%;
+     }
+ }

@@ -1,0 +1,101 @@
+.login {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.close {
+    display: none;
+}
+
+.login-container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: #0d5c75 0 0 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.header1 h1,
+.header1 h6 {
+    text-align: center;
+    color: #0d5c75;
+    text-transform: uppercase;
+}
+
+.header1 h1 {
+    margin-bottom: 20px;
+    font-size: 2.3rem;
+}
+
+.header1 h6 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.login-container i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    font-size: 2rem;
+    color: #0d5c75;
+}
+
+.login-container i:hover {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    font-size: 2.2rem;
+    color: #0d5c75;
+}
+
+@media screen and (max-width:960px) {
+    .login-container {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: #0d5c75 0 0 10px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .header1 h1,
+    .header1 h6 {
+        text-align: center;
+        color: #0d5c75;
+        text-transform: uppercase;
+    }
+    .header1 h1 {
+        margin-bottom: 20px;
+        font-size: 2.1rem;
+    }
+    .header1 h6 {
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+    .login-container i {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        font-size: 1.8rem;
+        color: #0d5c75;
+    }
+    .login-container i:hover {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        font-size: 2rem;
+        color: #0d5c75;
+    }
+}
